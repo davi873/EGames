@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion'; // eslint-disable-line no-unused-vars
 
 // ================== Teclas ==================
 const LETTERS = Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i));
